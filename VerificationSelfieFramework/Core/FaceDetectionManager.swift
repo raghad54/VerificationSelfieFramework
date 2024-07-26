@@ -53,6 +53,5 @@ public class FaceDetectionManager {
     }
 
     private func handleFaceDetectionResults(_ faceObservations: [VNFaceObservation]) {
-        // Handle face detection results if needed
     }
 }

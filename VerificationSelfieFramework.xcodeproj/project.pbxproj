@@ -23,7 +23,6 @@
 		04AFC0D22C53DAB000CFDC07 /* PrepareCameraControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC0D12C53DAB000CFDC07 /* PrepareCameraControllerDelegate.swift */; };
 		04AFC0D42C53DAD400CFDC07 /* PreviewViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC0D32C53DAD400CFDC07 /* PreviewViewControllerDelegate.swift */; };
 		04AFC0DC2C53DDB400CFDC07 /* FaceRectanglesOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC0DB2C53DDB400CFDC07 /* FaceRectanglesOverlayView.swift */; };
-		04AFC0F02C53FB3600CFDC07 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04AFC0EF2C53FB3600CFDC07 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,7 +49,6 @@
 		04AFC0D52C53DB1600CFDC07 /* PrepareCameraControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrepareCameraControllerDelegate.h; sourceTree = "<group>"; };
 		04AFC0D62C53DB4600CFDC07 /* PreviewViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreviewViewControllerDelegate.h; sourceTree = "<group>"; };
 		04AFC0DB2C53DDB400CFDC07 /* FaceRectanglesOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceRectanglesOverlayView.swift; sourceTree = "<group>"; };
-		04AFC0EF2C53FB3600CFDC07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +87,6 @@
 				04AFC0962C53C91F00CFDC07 /* Modules */,
 				04AFC08D2C53C8DE00CFDC07 /* VerificationSelfieFramework.h */,
 				04AFC09F2C53C9E200CFDC07 /* Extension */,
-				04AFC0EF2C53FB3600CFDC07 /* Info.plist */,
 			);
 			path = VerificationSelfieFramework;
 			sourceTree = "<group>";
@@ -248,7 +245,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04AFC0F02C53FB3600CFDC07 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -389,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -415,6 +411,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,6 +444,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

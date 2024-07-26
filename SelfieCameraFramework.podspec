@@ -1,3 +1,5 @@
+
+
 Pod::Spec.new do |s|
   s.name             = 'SelfieCameraFramework'
   s.version          = '0.1.0'
@@ -6,12 +8,18 @@ Pod::Spec.new do |s|
                         SelfieCameraFramework provides a selfie camera screen with capture functionality. 
                         It includes face detection to ensure that a face is present before capturing the image.
                       DESC
-  s.homepage        = 'https://github.com/YourUsername/SelfieCameraFramework'
+  s.homepage        = 'https://github.com/raghad54/VerificationSelfieFramework'
   s.license         = { :type => 'MIT', :file => 'LICENSE' }
   s.author          = { 'Raghad Soliman' => 'raghad.ali.5495@gmail.com' }
-  s.source          = { :git => 'https://github.com/raghad54/VerificationSelfieFramework', :tag => s.version.to_s }
-  s.source_files    = 'SelfieCameraFramework/Classes/**/*'
-  s.public_header_files = 'SelfieCameraFramework/Classes/**/*.h'
+  s.source          = { :git => 'https://github.com/raghad54/VerificationSelfieFramework.git', :tag => s.version.to_s }
+  
+  # Update these paths
+  s.source_files    = 'VerificationSelfieFramework/Core/**/*.{h,m,swift}'
+  s.public_header_files = 'VerificationSelfieFramework/Headers/**/*.h'
+  
   s.frameworks      = 'UIKit', 'AVFoundation', 'Vision'
   s.requires_arc    = true
+  s.swift_versions = ['5.0']
+
+
 end

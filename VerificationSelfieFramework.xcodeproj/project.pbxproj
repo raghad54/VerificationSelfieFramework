@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		047B5D9C2C5442B6005CAACF /* InfoPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 047B5D9B2C5442B6005CAACF /* InfoPlist.plist */; };
 		04AFC0982C53C95400CFDC07 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC0972C53C95400CFDC07 /* CameraManager.swift */; };
 		04AFC09A2C53C95F00CFDC07 /* FaceDetectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC0992C53C95F00CFDC07 /* FaceDetectionManager.swift */; };
 		04AFC09C2C53C97300CFDC07 /* PrepareCameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFC09B2C53C97300CFDC07 /* PrepareCameraController.swift */; };
@@ -26,7 +25,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		047B5D9B2C5442B6005CAACF /* InfoPlist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = InfoPlist.plist; sourceTree = "<group>"; };
 		04AFC08A2C53C8DE00CFDC07 /* VerificationSelfieFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VerificationSelfieFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AFC0972C53C95400CFDC07 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
 		04AFC0992C53C95F00CFDC07 /* FaceDetectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectionManager.swift; sourceTree = "<group>"; };
@@ -65,7 +63,6 @@
 		047B5D9A2C54427B005CAACF /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				047B5D9B2C5442B6005CAACF /* InfoPlist.plist */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -252,7 +249,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047B5D9C2C5442B6005CAACF /* InfoPlist.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -393,7 +389,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -409,15 +405,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DONT_GENERATE_INFOPLIST_FILE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = /Users/mac/Desktop/VerificationSelfieFramework/VerificationSelfieFramework/SupportingFiles/InfoPlist.plist;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -431,6 +430,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = com.raghad.VerificationSelfieFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -443,15 +443,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DONT_GENERATE_INFOPLIST_FILE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = /Users/mac/Desktop/VerificationSelfieFramework/VerificationSelfieFramework/SupportingFiles/InfoPlist.plist;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -465,6 +468,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = com.raghad.VerificationSelfieFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
